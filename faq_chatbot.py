@@ -1,4 +1,5 @@
 import streamlit as st
+import requests
 
 API_KEY = st.secrets["OPENROUTER_API_KEY"]
 
