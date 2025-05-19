@@ -1,8 +1,7 @@
 import streamlit as st
 
 API_KEY = st.secrets["OPENROUTER_API_KEY"]
-load_dotenv()
-API_KEY = os.getenv("OPENROUTER_API_KEY")
+
 
 st.title("🧠 AI FAQ Chatbot")
 st.write("Ask a question about our services!")
